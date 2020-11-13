@@ -49,5 +49,5 @@ app.get("/client/command",(req,res)=>{
     //console.log("Command is sent"+client_command);
 });
 
-app.listen(process.env.PORT);
+app.listen(process.env.PORT,()=>{console.log("App started")});
 //app.listen(80,"");
