@@ -49,5 +49,5 @@ app.get("/client/command",(req,res)=>{
     console.log("Command is sent"+client_command);
 });
 
-app.listen(80,"192.168.43.73");
+app.listen(process.env.PORT);
 //app.listen(80,"");
